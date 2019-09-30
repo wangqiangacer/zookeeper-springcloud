@@ -1,0 +1,8 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: zk-springcloud-producer
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
