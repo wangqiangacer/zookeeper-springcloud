@@ -11,6 +11,8 @@
     <modules>
         <module>zk-springcloud-producer</module>
         <module>zk-springcloud-consumer</module>
+        <module>zk-springcloud-producer-master</module>
+
 
     </modules>
 
