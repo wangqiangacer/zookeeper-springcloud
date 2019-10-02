@@ -11,6 +11,9 @@ import java.util.List;
 
 /**
  * 自定义负载均衡算法你 实现ribbon效果
+ * ribbon和nginx的区别
+ * ribbon原理:在调用接口的时候，会在eureka注册中心上获取注册列表信息，获取到之后，缓存在jvm本地中。
+ * feign客服端调用的缺点：应该重构接口信息
  */
 @RestController
 public class RibbonController {
